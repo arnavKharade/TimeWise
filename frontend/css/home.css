@@ -70,19 +70,13 @@ main {
 }
 
 .welcome {
-  margin-top: 20px;
-  background-color: var(--secondary-bg-color);
-  color: var(--text-color);
-  border-radius: 12px;
-  border-left: 4px solid var(--primary);
+  background: #fff;
   padding: 20px;
+  margin-bottom: 20px;
+  border-left: 4px solid #007bff;
   text-align: center;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease-in-out;
-}
+  position: relative;
 
-.welcome:hover {
-  transform: translateY(-5px);
 }
 
 .welcome h2{
@@ -104,7 +98,7 @@ main {
 }
 
 blockquote {
-
+    
   font-style: italic;
   color: rgb(125, 21, 21);
   margin-top: 20px;
@@ -195,8 +189,7 @@ blockquote {
 h1 {
   text-align: center;
   margin-bottom: 2rem;
-  color: #111
-  827;
+  color: #111827;
 }
 
 .card-grid {
@@ -232,15 +225,15 @@ h1 {
   color: #4b5563;
   font-size: 0.95rem;
 }
-
+ 
  .view{
-
+  
     color: #007bff;
     text-decoration: none;
-}
+} 
 
 .view i{
-  font-size: 20px;
+  font-size: 20px;  
   transition: 1s;
 }
 
